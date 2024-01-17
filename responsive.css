@@ -1,0 +1,213 @@
+ /*		Default Layout: 960px. 
+            Gutters: 24px.
+            Outer margins: 48px.
+            Leftover space for scrollbars @1024px: 32px.
+    -------------------------------------------------------------------------------
+*/
+
+    
+    
+    /*		Tablet Layout: 768px.
+            Gutters: 24px.
+            Outer margins: 28px.
+            Inherits styles from: Default Layout.
+    -----------------------------------------------------------------
+    cols    1     2      3      4      5      6      7      8
+    px      68    160    252    344    436    528    620    712    */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+       
+       
+
+
+    }
+    
+    
+    
+    /*		Mobile Layout: 320px.
+            Gutters: 24px.
+            Outer margins: 34px.
+            Inherits styles from: Default Layout.
+    ---------------------------------------------
+    cols    1     2      3
+    px      68    160    252    */
+    
+    @media only screen and (max-width: 767px) {
+
+      
+        
+    }
+    
+    
+    
+    /*		Wide Mobile Layout: 480px.
+            Gutters: 24px.
+            Outer margins: 22px.
+            Inherits styles from: Default Layout, Mobile Layout.
+    ------------------------------------------------------------
+    cols    1     2      3      4      5
+    px      68    160    252    344    436    */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+     
+        .container{
+            max-width:99%;
+            margin: auto;
+        }
+        
+        .header{
+            padding:15px 10px;
+            height:68vh;
+        }
+        .col-1{
+            margin-top:29%;
+        }
+        nav{
+            display:none;
+        }
+        ul li{
+            display:none;
+            margin:20px;
+        }
+        .social-icon{
+            display:flex;
+            margin:auto;
+        }
+        .col-1{
+            margin-left:25px;
+        }
+        .col-1 h1{
+            font-size:40px;
+            line-height:3rem;
+            margin-top:6px;
+            margin-bottom:10px;
+        }
+        .profile{
+            max-width:100%;
+            display:flex;
+            margin-bottom:70px;
+        }
+        .profile-1{
+            max-width:50%;
+                }
+        .profile-1 img{
+            max-width:50px;
+        }
+        .about-tour{
+            width:100%;
+            display:flex;
+            flex-direction: column;
+            color:#fff;
+            align-items:center;
+        }
+
+        .about-tour img{
+            width:80%;
+            padding:20px 20px; 
+            border-radius:30px;
+        }
+     
+        .detail-tour{
+            width:80%;
+        }
+      .blog-post{
+        flex-direction:column;        
+      }
+      .blog-tour{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding: 15px 0px;
+    }
+    .blog-tour img{
+        width:100%;
+    }
+ 
+    .content{
+        flex-direction:column;
+        }
+    .left{
+        width:80%;
+        display:block;
+        margin:0 auto;
+    }
+    .left h1{
+        width:415px;
+        font-size:34px;
+        line-height:2.5rem;
+    }
+    .right{
+        width: 80%;
+        margin: auto;
+        padding: 40px 0px;
+    }
+    .right img{
+        max-width: 478px;
+        display: block;
+        margin: auto
+    }
+    .explore-srch{
+       flex-direction: column;
+    }
+    .explore{
+       width:100%;
+       text-align: center;
+       display: block;
+       margin: auto;
+    
+    }
+    .srch {
+        margin: auto;
+    }
+
+    .srch input[type="email"]{
+        width:280px;
+        margin-top: 50px;
+    }
+
+    .footer{
+        margin:auto;
+    }
+    .footer-sec{
+        flex-direction: column;
+        display: block;
+
+        margin: auto;
+    }
+    .service{
+        width: 100%;
+        text-align: center;
+        margin: 7% 0%
+    }
+    .social-icon {
+        margin: auto;
+        width: 15%;
+      }
+    hr{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+    }
+    
+    
+    /*	Retina media query.
+        Overrides styles for devices with a 
+        device-pixel-ratio of 2+, such as iPhone 4.
+    -----------------------------------------------    */
+    
+    @media 
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min-device-pixel-ratio: 2) {
+        
+        
+        
+    }
